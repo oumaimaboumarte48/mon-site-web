@@ -1,0 +1,290 @@
+#logo {
+    height: 50px;
+    width: 150px;
+   
+}
+
+
+.navbar {
+    background-color: #f7b731;
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
+#slad {
+    margin-top: 60px;
+}
+
+
+.text_position h1 {
+    color: rgb(204, 203, 203);
+    font-family: cursive;
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 110px;
+}
+
+.carousel-caption {
+    right: 0 !important;
+    left: 0 !important;
+    margin-top: -75px;
+}
+
+.text_position button {
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    color: black;
+    padding-top: 10px;
+    margin-top: 40px;
+    background-color: #acacac;
+    border: 0;
+}
+
+.titre button:hover {
+    background-color: #ffffff !important;
+}
+
+.text_position {
+    top: 76px;
+    background-color: rgba(0, 0, 0, 0.664);
+    height: 600px;
+}
+
+.service_items h1 {
+    font-size: 3em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-radius: 8px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(97, 96, 96);
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* section 3 */
+.section_3 {
+    display: flex;
+    margin-top: 100px;
+    padding: 40px;
+    background-color: rgb(230, 230, 230);
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+}
+
+.section_3_1 {
+    width: 350px;
+}
+
+.section_3_1 a {
+    color: black;
+    font-weight: bold;
+}
+
+.section_3_2 img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* section 4 */
+.realisations {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+/* section 4 */
+.the_Groupe {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    background-color: rgba(179, 176, 176, 0.342);
+    height: 340px;
+    align-items: center;
+    padding-top: 5px;
+
+}
+
+.equipe_name h5 {
+    margin-left: 15px;
+
+}
+
+.the_Groupe img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    box-shadow: 0 0 2px black;
+}
+
+.groupe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groupe h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+    /* background-color: white; */
+    width: 100px;
+}
+
+.client {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.client img {
+    height: 200px;
+    width: 200px;
+}
+
+/* section 5 */
+.Testimonials {
+    margin-top: 30px;
+    background-color: rgba(179, 176, 176, 0.342);
+    padding: 1px;
+}
+
+.Our_client {
+    display: flex;
+    align-items: center;
+}
+
+.Our_client img {
+    height: 80px;
+    width: 90px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.Testimonials h4 {
+    font-weight: bold;
+}
+
+.paragh p {
+    margin-left: 100px;
+}
+
+.bord {
+    border-top: 1px solid black;
+    margin-top: 10px;
+    padding-top: 11px;
+
+}
+
+
+/* section 6 */
+.last_section {
+    background-image: url(/img/00.jpg);
+    background-size: cover;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.cominication {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.cominication_pargraph {
+    width: 400px;
+
+
+
+}
+
+.cominication_pargraph i {
+    margin-left: 10px;
+    height: 2em;
+    width: 2em;
+}
+
+
+
+.input_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.input_items h1,
+button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.in_name,
+.in_mail {
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(131, 131, 131);
+    margin-bottom: 15px;
+    padding-left: 15px;
+
+
+}
+
+.in_text {
+    height: 250px;
+    border-radius: 5px;
+    border: 1px solid rgb(151, 151, 151);
+    padding-left: 20px;
+    padding-top: 5px;
+    width: 100%;
+
+}
+
+.input_items button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 158, 158);
+    margin-top: 15px;
+    padding: 6px;
+    background: none;
+}
+
+.input_items button:hover {
+    background-color: rgb(177, 177, 177);
+}
+
+.foooter {
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+}
